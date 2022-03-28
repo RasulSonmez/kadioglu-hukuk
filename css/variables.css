@@ -1,0 +1,38 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+/* REACT SLICK IMPORT */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+/* VARIABLES CSS */
+:root {
+  /* Colors */
+  --body-color: rgba(245 245 245);
+  --color-primary: rgba(14 27 40);
+  --title-color: rgba(51 51 51);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white-soft: rgba(221 221 221);
+  --text-color: rgba(102 102 102);
+  --color-gold: rgba(192 181 150);
+  --bg-color-one: rgba(255, 255, 255, 0.1);
+  /* Font and typography */
+  --body-font: "Montserrat", sans-serif;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  /* Font weight */
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  /* Margenes */
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  /* z index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+/*# sourceMappingURL=variables.css.map */

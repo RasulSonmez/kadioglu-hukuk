@@ -1,0 +1,84 @@
+/* PRACTICE AREA */
+.practiceArea {
+  background-color: #f1f1f1;
+  padding-bottom: 5rem;
+}
+
+.practiceArea__content {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+}
+
+.practiceArea__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.practiceArea__item:hover .practice__icon {
+  color: var(--text-color);
+}
+
+.practiceArea__icon {
+  font-size: 2rem;
+  color: var(--color-gold);
+  border: 1px solid var(--color-gold);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+}
+
+.practiceArea__icon:hover {
+  color: var(--text-color);
+}
+
+.practiceArea__text {
+  width: calc(100% - 80px);
+  padding-left: 1.3rem;
+}
+
+.practiceArea__text h1 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  padding-bottom: 1rem;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+}
+
+.practiceArea__text h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background-color: var(--color-gold);
+}
+
+.practiceArea__text h1:hover {
+  color: var(--color-gold);
+}
+
+.practiceArea__text p {
+  margin-top: var(--mb-0-75);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  line-height: 1.5rem;
+  font-weight: var(--font-semi-bold);
+}
+/*# sourceMappingURL=PracticeArea.css.map */

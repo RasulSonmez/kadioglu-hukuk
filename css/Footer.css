@@ -1,0 +1,115 @@
+/* FOOTER */
+.footer {
+  background-color: var(--color-primary);
+}
+
+.footer__topArea {
+  padding: 50px 0 20px;
+}
+
+.footer__topArea__title {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  color: var(--color-white);
+  margin-bottom: var(--mb-1);
+}
+
+.footer__topArea__list li {
+  margin-bottom: var(--mb-1);
+  color: #ddd;
+}
+
+.footer__topArea__list li a {
+  color: #ddd;
+  display: inline-block;
+  font-size: var(--normal--font-size);
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+}
+
+.footer__topArea__list li a:hover {
+  color: var(--color-gold);
+}
+
+.footer__topArea__content {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__topArea__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+}
+
+.footer__topArea__item p {
+  color: #ddd;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  line-height: 1.4rem;
+}
+
+.footer__topArea__item .nav__logo {
+  margin-bottom: 2rem;
+}
+
+.footer__bottomArea {
+  border-top: 1px solid rgba(192, 181, 150, 0.3);
+  padding: 20px 0;
+}
+
+.footer__bottomArea__wrapper {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.footer__bottomArea__copyright {
+  display: block;
+  color: #ddd;
+  font-size: var(--normal--font-size);
+}
+
+.footer__bottomArea__copyright a {
+  color: #ddd;
+}
+
+.footer__bottomArea__copyright a:hover {
+  color: var(--color-gold);
+}
+
+.footer__bottomArea__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__bottomArea__social li {
+  margin-left: var(--mb-1);
+  -webkit-transition: 300ms all ease-in;
+  transition: 300ms all ease-in;
+}
+
+.footer__bottomArea__social li a {
+  color: #ddd;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+}
+
+.footer__bottomArea__social li a:hover {
+  color: var(--color-gold);
+}
+/*# sourceMappingURL=Footer.css.map */

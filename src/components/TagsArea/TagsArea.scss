@@ -1,0 +1,32 @@
+/* TAGS AREA */
+.tags {
+  margin-bottom: var(--mb-2);
+  &__title {
+    h1 {
+      font-weight: var(--font-bold);
+      color: var(--title-color);
+      padding: 0.7rem 1.2rem 1.2rem;
+      position: relative;
+      font-size: var(--h2-font-size);
+    }
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    li {
+      a {
+        background-color: #f5f5f5;
+        font-size: var(--normal--font-size);
+        display: inline-block;
+        padding: 0.5rem 1.2rem 0.7rem;
+        color: var(--title-color);
+        transition: 300ms all ease-in-out;
+        &:hover {
+          background-color: var(--color-gold);
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+}

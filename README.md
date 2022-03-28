@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+-node-sass
+-react-icon
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

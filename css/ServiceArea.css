@@ -1,0 +1,49 @@
+/* SERVICE AREA */
+.serviceArea {
+  background-color: #f1f1f1;
+}
+
+.serviceArea__content {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  place-items: center;
+}
+
+.serviceArea__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 3rem;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.serviceArea__icon {
+  background-color: var(--color-gold);
+  font-size: 3rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  color: var(--color-white);
+}
+
+.serviceArea__text h3 {
+  font-size: var(--normal-font-size);
+  color: var(--color-gold);
+  margin-bottom: var(--mb-0-5);
+}
+
+.serviceArea__text h1 {
+  font-size: var(--biggest-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-0-75);
+  font-weight: var(--font-semi-bold);
+}
+/*# sourceMappingURL=ServiceArea.css.map */

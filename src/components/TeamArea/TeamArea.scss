@@ -1,0 +1,70 @@
+/* TEAM AREA */
+.teamArea {
+  &__item {
+    &__wrapper {
+      overflow: hidden;
+      position: relative;
+      transition: 300ms all;
+      cursor: pointer;
+      &:hover .teamArea__content {
+        transform: translateY(0);
+        background: #fff;
+      }
+    }
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-bottom: none;
+    filter: grayscale(100%);
+  }
+
+  &__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__content {
+    background: #ddd;
+    color: var(--text-color);
+    position: relative;
+    margin-top: -40px;
+    transform: translateY(40px);
+    transition: all 0.3s;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    transition: 300ms all ease-in-out;
+    &:hover h4 {
+      color: var(--color-gold);
+    }
+    &:hover a {
+      color: var(--title-color);
+    }
+    h4 {
+      text-align: center;
+      font-size: var(--h2-font-size);
+      color: var(--title-color);
+      font-weight: var(--font-semi-bold);
+      padding: 30px 0 5px;
+      transition: 300ms all ease-in-out;
+      margin-bottom: var(--mb-2);
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 15px 0;
+
+      li {
+        padding: 0 5px;
+        a {
+          color: var(--color-gold);
+          display: flex;
+          align-content: center;
+          font-size: 1.2rem;
+          transition: 300ms all ease-in-out;
+        }
+      }
+    }
+  }
+}

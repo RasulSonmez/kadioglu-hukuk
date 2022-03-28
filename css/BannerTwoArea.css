@@ -1,0 +1,76 @@
+/* Banner Two Area */
+.bannerTwoArea {
+  position: relative;
+}
+
+.bannerTwoArea__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../assets/images/banner-two.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 3rem;
+  height: 300px;
+}
+
+.bannerTwoArea__wrapper::before {
+  content: "";
+  background-color: rgba(21, 26, 48, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+  top: 0px;
+}
+
+.bannerTwoArea__container {
+  z-index: 2;
+}
+
+.bannerTwoArea__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.bannerTwoArea__item {
+  text-align: center;
+  padding: 5rem;
+  background-color: rgba(192, 181, 150, 0.26);
+  border-radius: 0.3rem;
+}
+
+.bannerTwoArea__title {
+  line-height: 2rem;
+  color: var(--color-white);
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.bannerTwoArea__title-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+}
+
+.bannerTwoArea__title p {
+  color: var(--color-white);
+  font-size: var(--normal-font-size);
+}
+/*# sourceMappingURL=BannerTwoArea.css.map */

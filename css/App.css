@@ -1,0 +1,343 @@
+/* Import of partial files  */
+/* GLOBAL */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background: var(--body-color);
+}
+
+html,
+body {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1197px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 4.5rem 0 2rem;
+}
+
+.section__title h3 {
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--color-gold);
+  margin-bottom: var(--mb-0-5);
+}
+
+.section__title h1 {
+  text-align: center;
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  color: var(--title-color);
+  margin-bottom: var(--mb-2);
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.section__title h1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--color-gold);
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* RESET CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+select,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* GOOGLE FONTS */
+/* REACT SLICK IMPORT */
+/* VARIABLES CSS */
+:root {
+  /* Colors */
+  --body-color: rgba(245 245 245);
+  --color-primary: rgba(14 27 40);
+  --title-color: rgba(51 51 51);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white-soft: rgba(221 221 221);
+  --text-color: rgba(102 102 102);
+  --color-gold: rgba(192 181 150);
+  --bg-color-one: rgba(255, 255, 255, 0.1);
+  /* Font and typography */
+  --body-font: "Montserrat", sans-serif;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  /* Font weight */
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  /* Margenes */
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  /* z index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/* BUTTON */
+.button {
+  color: var(--color-white);
+  border-radius: 0.4rem;
+  padding: 0.1rem 1.56rem;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+  font-size: var(--h2-font-size);
+  cursor: pointer;
+}
+
+.button-primary {
+  color: var(--color-white);
+  padding: 1rem;
+  background-color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+}
+
+.button-primary:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-gold);
+  color: var(--color-gold);
+}
+
+.button-secondary {
+  border-radius: 0.1rem;
+  color: var(--color-white);
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background-color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+}
+
+.button-secondary:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-gold);
+  color: var(--color-gold);
+}
+
+/* Scroll up */
+.scrollup {
+  position: fixed;
+  background-color: var(--color-primary);
+  right: 1rem;
+  bottom: -20%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+  z-index: var(--z-tooltip);
+  opacity: 0.8;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: var(--color-primary);
+  opacity: 1;
+}
+
+.scrollup__icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
+
+/* Show Scroll Up */
+.show-scroll {
+  bottom: 3rem;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--color-primaryr);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--title-color);
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,40 @@
+/* SERVICE AREA */
+.serviceArea {
+  background-color: rgba(241, 241, 241, 1);
+
+  &__content {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    place-items: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  &__icon {
+    background-color: var(--color-gold);
+    font-size: 3rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    color: var(--color-white);
+  }
+
+  &__text {
+    h3 {
+      font-size: var(--normal-font-size);
+      color: var(--color-gold);
+      margin-bottom: var(--mb-0-5);
+    }
+    h1 {
+      font-size: var(--biggest-font-size);
+      color: var(--title-color);
+      margin-bottom: var(--mb-0-75);
+      font-weight: var(--font-semi-bold);
+    }
+  }
+}

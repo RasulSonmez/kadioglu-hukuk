@@ -1,0 +1,38 @@
+/* BUTTON */
+.button {
+  color: var(--color-white);
+  border-radius: 0.4rem;
+  padding: 0.1rem 1.56rem;
+  -webkit-transition: 300ms all ease-in-out;
+  transition: 300ms all ease-in-out;
+  font-size: var(--h2-font-size);
+  cursor: pointer;
+}
+
+.button-primary {
+  color: var(--color-white);
+  padding: 1rem;
+  background-color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+}
+
+.button-primary:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-gold);
+  color: var(--color-gold);
+}
+
+.button-secondary {
+  border-radius: 0.1rem;
+  color: var(--color-white);
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background-color: var(--color-gold);
+  border: 2px solid var(--color-gold);
+}
+
+.button-secondary:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-gold);
+  color: var(--color-gold);
+}
+/*# sourceMappingURL=button.css.map */
