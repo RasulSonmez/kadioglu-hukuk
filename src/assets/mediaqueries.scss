@@ -15,6 +15,11 @@
       }
     
     }
+
+    .hero__slider__content h1{
+      font-size:2rem !important;
+      line-height: 3rem !important;
+    }
       
     .testmonialArea__content,.aboutArea__container,.contactArea__container{
           grid-template-columns: 1fr !important;
@@ -47,10 +52,18 @@
    .blogArea__content{
         grid-template-columns: 1fr !important;
       }
+
+      .slick-hero-next, .slick-hero-prev{
+        display: none;
+      }
   
 }
 
 @media screen and (max-width: 576px) {
+
+  .blogArea__container  {
+    margin-top: 23rem;
+}
   .banner__content,.practiceArea__content,.blogArea__content,.serviceArea__content{
     grid-template-columns: 1fr !important;
   }

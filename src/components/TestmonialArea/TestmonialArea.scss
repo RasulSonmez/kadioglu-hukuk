@@ -1,9 +1,9 @@
 /* TESTMONIAL */
 .testmonialArea {
   &__image {
-    height: 32rem;
-    width: 32rem;
     position: relative;
+    width: 100%;
+  
     &::before {
       content: "";
       background-color: var(--color-gold);
