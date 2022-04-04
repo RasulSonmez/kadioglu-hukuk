@@ -1,8 +1,8 @@
 /* ABOUT AREA*/
 .aboutArea {
-  &__container {
-    display: grid;
+  &__container {    
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
   &__image {
     height: 32rem;

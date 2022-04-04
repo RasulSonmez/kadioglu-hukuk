@@ -41,9 +41,35 @@ const AttorneysArea = () => {
     slidesToScroll: 3,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+
+    responsive: [
+      {
+        breakpoint: 967,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3,
+          infinite: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
-    <div className="attorneysAreaArea section">
+    <div className="attorneysArea section">
       <div className="attorneysArea__container">
         <div className="section__title">
           <h3>Meet Our Experts</h3>

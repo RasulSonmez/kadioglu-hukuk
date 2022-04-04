@@ -147,6 +147,7 @@
       margin-bottom: var(--mb-2);
 
       h1 {
+       text-align: center;
         color: var(--title-color);
         font-weight: var(--font-bold);
         font-size: var(--h2-font-size);
@@ -160,10 +161,12 @@
       ul {
         display: flex;
         align-items: center;
-        width: 100%;
-        margin-bottom: var(--mb-2);
+        width: 100%;      
 
         li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
           margin-right: var(--mb-0-75);
           color: var(--color-gold);
           font-size: var(--normal-font-size);
@@ -183,6 +186,8 @@
         }
       }
     }
+
+
     &-sub {
       padding: 1rem 2rem;
       p {
@@ -201,5 +206,11 @@
         }
       }
     }
+  }
+  &__authorIcon{
+    font-size: 1rem;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 0.2rem;
   }
 }

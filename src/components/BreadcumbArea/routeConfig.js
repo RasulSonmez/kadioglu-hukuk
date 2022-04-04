@@ -26,7 +26,7 @@ const routesConfig = [
   },
   {
     path: "/blogdetail",
-    breadcrumb: "Blog Detail",
+    breadcrumb: "Blog",
     props: { className: "active-breadcrumb" },
   },
 ];

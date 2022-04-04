@@ -1,6 +1,6 @@
 import React from "react";
 //icon
-import { BsBrush } from "react-icons/bs";
+import { BsBrush, BsColumnsGap } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import CustomLink from "./CustomLink";
 //scss
@@ -50,6 +50,9 @@ const Header = () => {
               </CustomLink>
             </li>
           </ul>
+        </div>
+        <div className="nav__toggle">
+          <BsColumnsGap />
         </div>
       </nav>
     </header>

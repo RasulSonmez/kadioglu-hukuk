@@ -38,4 +38,12 @@ header {
       color: var(--color-gold);
     }
   }
+
+  &__toggle{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: gold;
+    font-weight: var(--font-semi-bold);
+    display: none;
+  }
 }

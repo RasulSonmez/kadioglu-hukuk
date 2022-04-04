@@ -1,0 +1,58 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+    .nav,.serviceArea,.aboutArea,.practiceArea,.testmonialArea,.attorneysArea,.blogArea,.footer__container{
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+  
+  }
+  
+
+  @media screen and (max-width: 961px) {
+    .nav{
+      &__menu{
+        display: block;
+      }
+    
+    }
+      
+    .testmonialArea__content,.aboutArea__container,.contactArea__container{
+          grid-template-columns: 1fr !important;
+          place-items: center;
+      }
+   
+      .banner__content,.practiceArea__content,.blogArea__content,.serviceArea__content{
+        grid-template-columns: repeat(2,1fr) !important;
+      }
+    
+.contactArea {
+    margin-bottom: 23rem;
+}
+
+.footer__topArea__content{
+    grid-template-columns: 1fr !important;
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+  .nav{
+    &__menu{
+      display: none;
+    }
+    &__toggle{
+      display: block !important;
+    }
+  }
+   .blogArea__content{
+        grid-template-columns: 1fr !important;
+      }
+  
+}
+
+@media screen and (max-width: 576px) {
+  .banner__content,.practiceArea__content,.blogArea__content,.serviceArea__content{
+    grid-template-columns: 1fr !important;
+  }
+  
+}

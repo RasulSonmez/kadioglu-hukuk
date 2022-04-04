@@ -13,7 +13,7 @@ import "./Banner.scss";
 const Banner = () => {
   return (
     <div className="banner section">
-      <div className="banner__content container">
+      <div className="banner__content container grid">
         <div className="banner__item">
           <div className="banner__title">
             <div className="banner__title-one">

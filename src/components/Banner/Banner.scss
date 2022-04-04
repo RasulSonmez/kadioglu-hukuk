@@ -13,8 +13,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 3rem;
 
-  &__content {
-    display: grid;
+  &__content {   
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
   }
@@ -22,7 +21,6 @@
   &__item {
     text-align: center;
     padding: 1.5rem;
-
     border-radius: 0.3rem;
   }
 

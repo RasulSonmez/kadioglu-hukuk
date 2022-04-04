@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 //image
 import blog1 from "../../assets/images/blog-1.jpg";
@@ -9,7 +9,6 @@ import teamImage5 from "../../assets/images/team-5.jpg";
 const BlogPostAreaNews = () => {
   return (
     <div>
-      {" "}
       <div className="blogPostArea__news__item grid">
         <div className="blogPostArea__news__image">
           <img src={blog1} alt="blog-img" />
@@ -27,10 +26,9 @@ const BlogPostAreaNews = () => {
         <h1>Justice May For You If You Are Innocent</h1>
         <div className="blogPostArea__news-sub">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            numquam delectus rerum consectetur libero, expedita unde voluptatum
-            nesciunt amet harum architecto blanditiis temporibus quae quas
-            adipisci placeat animi. Magnam, deserunt.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+            voluptate mollitia ea accusamus, facilis amet numquam voluptatem
+            velit quis reprehenderit.
           </p>
           <Link to="/blogdetail">Read More..</Link>
         </div>
@@ -52,14 +50,14 @@ const BlogPostAreaNews = () => {
         <h1>Justice May For You If You Are Innocent</h1>
         <div className="blogPostArea__news-sub">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            numquam delectus rerum consectetur libero, expedita unde voluptatum
-            nesciunt amet harum architecto blanditiis temporibus quae quas
-            adipisci placeat animi. Magnam, deserunt.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+            voluptate mollitia ea accusamus, facilis amet numquam voluptatem
+            velit quis reprehenderit.
           </p>
-          <a href="#">Read More..</a>
+          <Link to="/blogdetail">Read More..</Link>
         </div>
       </div>
+
       <div className="blogPostArea__news__item grid">
         <div className="blogPostArea__news__image">
           <img src={blog3} alt="blog-img" />
@@ -77,12 +75,11 @@ const BlogPostAreaNews = () => {
         <h1>Justice May For You If You Are Innocent</h1>
         <div className="blogPostArea__news-sub">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            numquam delectus rerum consectetur libero, expedita unde voluptatum
-            nesciunt amet harum architecto blanditiis temporibus quae quas
-            adipisci placeat animi. Magnam, deserunt.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+            voluptate mollitia ea accusamus, facilis amet numquam voluptatem
+            velit quis reprehenderit.
           </p>
-          <a href="#">Read More..</a>
+          <Link to="/blogdetail">Read More..</Link>
         </div>
       </div>
     </div>

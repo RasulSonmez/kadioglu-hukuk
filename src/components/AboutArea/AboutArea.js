@@ -8,7 +8,7 @@ import aboutAreaImage from "../../assets/images/about-img-1.jpg";
 const AboutAreaArea = () => {
   return (
     <div className="aboutArea section">
-      <div className="aboutArea__container container">
+      <div className="aboutArea__container grid container">
         <div className="aboutArea__image">
           <img src={aboutAreaImage} alt="aboutArea" />
         </div>
