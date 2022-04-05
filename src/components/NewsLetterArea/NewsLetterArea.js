@@ -9,7 +9,7 @@ const NewsLetterArea = () => {
         <div className="newsLetterArea__content">
           <h1>Subscribe Newsletter</h1>
           <form action="#">
-            <input type="text" placeholder="Enter Your Email Address.." />
+            <input type="text" placeholder="Email Address" />
             <button>SUBSCRIBE</button>
           </form>
         </div>

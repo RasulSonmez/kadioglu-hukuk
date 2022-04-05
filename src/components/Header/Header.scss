@@ -39,11 +39,65 @@ header {
     }
   }
 
-  &__toggle{
+  &__toggle {
     font-size: 1.3rem;
     cursor: pointer;
     color: gold;
     font-weight: var(--font-semi-bold);
     display: none;
+  }
+}
+.dropdown {
+  position: relative;
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    font-size: 0.7rem;
+    transition: 0.5s;
+    margin-left: 0.4rem;
+    margin-top: 0.1rem;
+  }
+
+  &__menu {
+    position: absolute;
+    margin: 0.4rem 0 0 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 250ms all;
+    background-color: var(--color-primary);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    line-height: 2.5rem;
+    width: 15rem;
+    display: block;
+    text-align: left;
+    font-size: var(--small-font-size);
+    z-index: 2;
+
+    a {
+      color: var(--color-white-soft);
+      transition: 300ms all;
+      &:hover {
+        color: var(--color-gold);
+      }
+    }
+  }
+
+  &__item {
+    margin: 1rem 0;
+  }
+
+  &:hover > &__menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover &__icon {
+    transform: rotate(180deg);
   }
 }

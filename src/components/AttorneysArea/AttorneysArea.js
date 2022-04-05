@@ -36,7 +36,9 @@ const AttorneysArea = () => {
   const settingsTwo = {
     dots: false,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 3000,
     slidesToShow: 3,
     slidesToScroll: 3,
     nextArrow: <SampleNextArrow />,
