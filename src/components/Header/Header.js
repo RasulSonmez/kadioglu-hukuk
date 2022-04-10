@@ -1,12 +1,18 @@
-import React from "react";
+import { useState } from "react";
 //icon
-import { BsBrush, BsColumnsGap, BsArrowDown } from "react-icons/bs";
+import { BsBrush, BsTextLeft, BsArrowDownShort, BsX } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import CustomLink from "./CustomLink";
 //scss
 import "./Header.scss";
 
 const Header = () => {
+  const [toggleMenu, setToggleMenu] = useState("false");
+
+  const handleToggle = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
   return (
     <header>
       <nav className="nav container">
@@ -17,7 +23,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="nav__menu">
+        <div className={toggleMenu ? "nav__menu" : "nav__menu show-menu"}>
           <ul className="nav__list">
             <li className="nav__item">
               <CustomLink to="/" className="nav__link">
@@ -30,10 +36,10 @@ const Header = () => {
               </CustomLink>
             </li>
             <li className="nav__item ">
-              <CustomLink to="/practice" className="nav__link dropdown">
+              <a href="#" className="nav__link dropdown">
                 <div class=" dropdown__link">
                   <span class="nav__link">Practice</span>
-                  <BsArrowDown className="dropdown__icon" />
+                  <BsArrowDownShort className="dropdown__icon" />
                 </div>
                 <ul class="dropdown__menu">
                   <li>
@@ -67,7 +73,7 @@ const Header = () => {
                     </Link>
                   </li>
                 </ul>
-              </CustomLink>
+              </a>
             </li>
             <li className="nav__item">
               <CustomLink to="/attorneys" className="nav__link">
@@ -86,8 +92,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="nav__toggle">
-          <BsColumnsGap />
+        <div className="nav__toggle" onClick={handleToggle}>
+          {toggleMenu ? <BsTextLeft /> : <BsX />}
         </div>
       </nav>
     </header>

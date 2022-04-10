@@ -55,7 +55,7 @@
 @media screen and (max-width: 768px) {
   .nav {
     &__menu {
-      display: none;
+      top: -5rem;
     }
     &__toggle {
       display: block !important;
@@ -69,6 +69,44 @@
   .slick-hero-next,
   .slick-hero-prev {
     display: none;
+  }
+
+  .dropdown {
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center !important;
+    }
+
+    &__icon {
+      font-size: 0.5rem;
+      transition: 0.5s;
+    }
+
+    &__menu {
+      background-color: transparent !important;
+      position: initial !important;
+      box-shadow: none !important;
+      overflow: hidden;
+      padding: 0 !important;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 500ms, opacity 300ms;
+      -webkit-transition: max-height 500ms, opacity 300ms;
+      text-align: center !important;
+      line-height: 2rem;
+    }
+
+    &:hover > &__menu {
+      max-height: 500px;
+      opacity: 1;
+      transition: max-height 0, opacity 300ms;
+      -webkit-transition: max-height 0, opacity 300ms;
+    }
+
+    &:hover &__icon {
+      transform: rotate(180deg);
+    }
   }
 }
 
