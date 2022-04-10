@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogPostAreaCategory = () => {
   return (
@@ -8,22 +9,22 @@ const BlogPostAreaCategory = () => {
       </div>
       <ul>
         <li>
-          <a href="#">Family Law</a>
+          <Link to="#">Family Law</Link>
         </li>
         <li>
-          <a href="#">Criminal Law</a>
+          <Link to="#">Criminal Law</Link>
         </li>
         <li>
-          <a href="#">Business Law</a>
+          <Link to="#">Business Law</Link>
         </li>
         <li>
-          <a href="#">Personal Injury</a>
+          <Link to="#">Personal Injury</Link>
         </li>
         <li>
-          <a href="#">Education Law</a>
+          <Link to="#">Education Law</Link>
         </li>
         <li>
-          <a href="#">Drugs Crime</a>
+          <Link to="#">Drugs Crime</Link>
         </li>
       </ul>
     </div>

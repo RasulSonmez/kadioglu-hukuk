@@ -36,44 +36,44 @@ const Header = () => {
               </CustomLink>
             </li>
             <li className="nav__item ">
-              <a href="#" className="nav__link dropdown">
+              <Link to="/practice" className="nav__link dropdown">
                 <div class=" dropdown__link">
                   <span class="nav__link">Practice</span>
                   <BsArrowDownShort className="dropdown__icon" />
                 </div>
-                <ul class="dropdown__menu">
+                <ul className="dropdown__menu">
                   <li>
-                    <Link to="/practice" class="nav__link">
+                    <Link to="/practice" className="nav__link">
                       Family Law
                     </Link>
                   </li>
                   <li>
-                    <Link to="/practice" class="nav__link">
+                    <Link to="/practice" className="nav__link">
                       Personal Injury
                     </Link>
                   </li>
                   <li>
-                    <Link to="/practice" class="nav__link">
+                    <Link to="/practice" className="nav__link">
                       Business Law
                     </Link>
                   </li>
                   <li>
-                    <Link to="/practice" class="nav__link">
+                    <Link to="/practice" className="nav__link">
                       Criminal Law
                     </Link>
                   </li>
                   <li>
-                    <Link to="/practice" class="nav__link">
+                    <Link to="/practice" className="nav__link">
                       Education Law
                     </Link>
                   </li>
                   <li>
-                    <Link to="/practice" class="nav__link">
+                    <Link to="/practice" className="nav__link">
                       Real Estate Law
                     </Link>
                   </li>
                 </ul>
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
               <CustomLink to="/attorneys" className="nav__link">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 //css
 import "./TagsArea.scss";
 
@@ -10,34 +11,34 @@ const TagsArea = () => {
       </div>
       <ul>
         <li>
-          <a href="#">Attorney</a>
+          <Link to="#">Attorney</Link>
         </li>
         <li>
-          <a href="#">Lawyer</a>
+          <Link to="#">Lawyer</Link>
         </li>
         <li>
-          <a href="#">Accident</a>
+          <Link to="#">Accident</Link>
         </li>
         <li>
-          <a href="#">Consultation</a>
+          <Link to="#">Consultation</Link>
         </li>
         <li>
-          <a href="#">Fraud</a>
+          <Link to="#">Fraud</Link>
         </li>
         <li>
-          <a href="#">Law</a>
+          <Link to="#">Law</Link>
         </li>
         <li>
-          <a href="#">Immigration</a>
+          <Link to="#">Immigration</Link>
         </li>
         <li>
-          <a href="#">Criminal</a>
+          <Link to="#">Criminal</Link>
         </li>
         <li>
-          <a href="#">Business</a>
+          <Link to="#">Business</Link>
         </li>
         <li>
-          <a href="#">Corporate</a>
+          <Link to="#">Corporate</Link>
         </li>
       </ul>
     </div>
