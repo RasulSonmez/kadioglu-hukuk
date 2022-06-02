@@ -27,49 +27,49 @@ const Header = () => {
           <ul className="nav__list">
             <li className="nav__item">
               <CustomLink to="/" className="nav__link">
-                Home
+                Ana Sayfa
               </CustomLink>
             </li>
             <li className="nav__item">
               <CustomLink className="nav__link" to="/about">
-                About
+                Hakkımızda
               </CustomLink>
             </li>
             <li className="nav__item ">
               <Link to="/practice" className="nav__link dropdown">
                 <div class=" dropdown__link">
-                  <span class="nav__link">Practice</span>
+                  <span class="nav__link">Hizmetlerimiz</span>
                   <BsArrowDownShort className="dropdown__icon" />
                 </div>
                 <ul className="dropdown__menu">
                   <li>
                     <Link to="/practice" className="nav__link">
-                      Family Law
+                      Aile Hukuku
                     </Link>
                   </li>
                   <li>
                     <Link to="/practice" className="nav__link">
-                      Personal Injury
+                      İcra ve İflas Hukuku
                     </Link>
                   </li>
                   <li>
                     <Link to="/practice" className="nav__link">
-                      Business Law
+                      İş ve Sosyal Güvenlik Hukuku
                     </Link>
                   </li>
                   <li>
                     <Link to="/practice" className="nav__link">
-                      Criminal Law
+                      Tüketici Hukuku
                     </Link>
                   </li>
                   <li>
                     <Link to="/practice" className="nav__link">
-                      Education Law
+                      Ticaret Hukuku
                     </Link>
                   </li>
                   <li>
                     <Link to="/practice" className="nav__link">
-                      Real Estate Law
+                      Yabancılar ve Vatandaşlık Hukuku
                     </Link>
                   </li>
                 </ul>
@@ -77,17 +77,17 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <CustomLink to="/attorneys" className="nav__link">
-                Attorneys
+                Takım
               </CustomLink>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <CustomLink to="/blog" className="nav__link">
                 Blog
               </CustomLink>
-            </li>
+            </li> */}
             <li className="nav__item">
               <CustomLink to="/contact" className="nav__link">
-                Contact
+                İletişim
               </CustomLink>
             </li>
           </ul>

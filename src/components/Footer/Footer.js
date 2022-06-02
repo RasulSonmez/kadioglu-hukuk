@@ -20,63 +20,57 @@ const Footer = () => {
                   KADIOĞLU <span>HUKUK</span>
                 </Link>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate commodi ex alias maxime eum nesciunt excepturi{" "}
-              </p>
+              <p>Alanında uzman Avukatlar ile hızlı hukuk çözümler.</p>
             </div>
             <div className="footer__topArea__item">
               <h3 className="footer__topArea__title">Quick Link</h3>
               <ul className="footer__topArea__list">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">Ana Sayfa</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/about">Hakkımızda</Link>
                 </li>
                 <li>
-                  <Link to="/practice">Practice</Link>
+                  <Link to="/practice">Hizmetler</Link>
                 </li>
                 <li>
-                  <Link to="/attorneys">Attorneys</Link>
+                  <Link to="/attorneys">Avukatlar</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/blog">Blog</Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact">İletişim</Link>
                 </li>
               </ul>
             </div>
             <div className="footer__topArea__item">
-              <h3 className="footer__topArea__title">Practice Area</h3>
+              <h3 className="footer__topArea__title">Hizmetlerimiz</h3>
               <ul className="footer__topArea__list">
                 <li>
-                  <Link to="/practice">Family Law</Link>
+                  <Link to="/practice"> Aile Hukuku</Link>
                 </li>
                 <li>
-                  <Link to="/practice">Personal Injury</Link>
+                  <Link to="/practice">İcra ve İflas Hukuku</Link>
                 </li>
                 <li>
-                  <Link to="/practice">Business Law</Link>
+                  <Link to="/practice">İş ve Sosyal Güvenlik Hukuku</Link>
                 </li>
                 <li>
-                  <Link to="/practice">Criminal Law</Link>
+                  <Link to="/practice"> Tüketici Hukuku</Link>
                 </li>
                 <li>
-                  <Link to="/practice">Education Law</Link>
+                  <Link to="/practice"> Ticaret Hukuku</Link>
                 </li>
                 <li>
-                  <Link to="/practice">Real Estate Law</Link>
+                  <Link to="/practice">Yabancılar ve Vatandaşlık Hukuku</Link>
                 </li>
               </ul>
             </div>
             <div className="footer__topArea__item">
-              <h3 className="footer__topArea__title">Contact US</h3>
-              <p className="footer__topArea__address">
-                Head Office Address 121 King Street, Melbourne West, Australia
-                Phone: 888 123-4587 Email: info@example.com
-              </p>
+              <h3 className="footer__topArea__title">İletişime Geçin</h3>
+              <p className="footer__topArea__address">İstanbul/Türkiye</p>
             </div>
           </div>
         </div>
@@ -85,7 +79,7 @@ const Footer = () => {
             <span className="footer__bottomArea__copyright">
               Privacy Policy | © 2022{" "}
               <a href="https://www.rasulsonmez.com/" target="_blank">
-                rasulSonmez
+                Kadıoğlu Hukuk Bürosu
               </a>{" "}
               All rights reserved.
             </span>

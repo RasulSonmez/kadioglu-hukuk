@@ -14,8 +14,8 @@ const PracticeArea = () => {
     <div className="practiceArea section">
       <div className="practiceArea__container container">
         <div className="section__title">
-          <h3>Area Of practiceArea</h3>
-          <h1>How Can Help You</h1>
+          <h3>Hizmet Alanlarımız</h3>
+          <h1>Nasıl Yardımcı Olabiliriz?</h1>
         </div>
         <div className="practiceArea__content grid">
           <div className="practiceArea__item">
@@ -23,11 +23,10 @@ const PracticeArea = () => {
               <FiUsers />
             </div>
             <div className="practiceArea__text">
-              <h1>Family Law</h1>
+              <h1>AİLE HUKUKU</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                at iusto ut necessitatibus adipisci explicabo, corrupti eius
-                tempora velit aspernatur?
+                Boşanma davaları, mal rejiminden kaynaklı davalar, nişanlılık,
+                velayet ve nafaka başta olmak üzere birçok hizmet sunuyoruz.
               </p>
             </div>
           </div>
@@ -36,11 +35,10 @@ const PracticeArea = () => {
               <FiUser />
             </div>
             <div className="practiceArea__text">
-              <h1>Personal Injury</h1>
+              <h1>İŞ VE SOSYAL GÜVENLİK HUKUKU</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                at iusto ut necessitatibus adipisci explicabo, corrupti eius
-                tempora velit aspernatur?
+                Yerli ve yabancı müvekkillerimize iş ve sosyal güvenlik
+                hukukunda hukuki destek verilmektedir.
               </p>
             </div>
           </div>
@@ -49,11 +47,10 @@ const PracticeArea = () => {
               <MdBusinessCenter />
             </div>
             <div className="practiceArea__text">
-              <h1>Business Law</h1>
+              <h1>TÜKETİCİ HUKUKU</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                at iusto ut necessitatibus adipisci explicabo, corrupti eius
-                tempora velit aspernatur?
+                Tüketici hukuki ile ilgili her türlü konuda müvekkillerimize
+                hukuki danışmanlık hizmetini gerçekleştirmekteyiz.
               </p>
             </div>
           </div>
@@ -75,11 +72,11 @@ const PracticeArea = () => {
               <MdCastForEducation />
             </div>
             <div className="practiceArea__text">
-              <h1>Education Law</h1>
+              <h1>ŞİRKETLER HUKUKU</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                at iusto ut necessitatibus adipisci explicabo, corrupti eius
-                tempora velit aspernatur?
+                Müvekkillerimize şirketlerinin kuruluş aşamalarından tasfiye
+                süreçlerinin tamamlanmasına değin yazılı ve sözlü danışmanlık
+                hizmeti veriyoruz.
               </p>
             </div>
           </div>
@@ -88,11 +85,11 @@ const PracticeArea = () => {
               <MdRealEstateAgent />
             </div>
             <div className="practiceArea__text">
-              <h1>Real Estate Law</h1>
+              <h1>TİCARET HUKUKU</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-                at iusto ut necessitatibus adipisci explicabo, corrupti eius
-                tempora velit aspernatur?
+                Şahıs ve şirket yapılaşmasında olan müvekkillerimize ticaret
+                hukuku alanına giren konularda hukuki görüş ve avukatlık hizmeti
+                vermekteyiz.
               </p>
             </div>
           </div>

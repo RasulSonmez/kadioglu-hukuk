@@ -46,14 +46,14 @@ const Hero = () => {
           </div>
         </Slider>
         <div className="hero__slider__content">
-          <p>The most relevant law firm</p>
+          <p>Kadıoğlu Hukuk Bürosu</p>
           <h1>
-            We are always with
+            Avukatlık ve Hukuki Danışmanlık
             <br />
-            You with our experience
+            İhtiyaçlarınız için Profesyonel Çözümler
           </h1>
           <Link to="/contact" className="button hero__button">
-            Contact Us Now
+            İletişime Geçin
           </Link>
         </div>
       </div>

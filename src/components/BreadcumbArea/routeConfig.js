@@ -1,17 +1,17 @@
 const routesConfig = [
   {
     path: "/about",
-    breadcrumb: "About Us",
+    breadcrumb: "Hakkımızda",
     props: { className: "active-breadcrumb" },
   },
   {
     path: "/practice",
-    breadcrumb: "Practice",
+    breadcrumb: "Hizmetlerimiz",
     props: { className: "active-breadcrumb" },
   },
   {
     path: "/attorneys",
-    breadcrumb: "Attorneys",
+    breadcrumb: "Avukatlar",
     props: { className: "active-breadcrumb" },
   },
   {
@@ -21,7 +21,7 @@ const routesConfig = [
   },
   {
     path: "/contact",
-    breadcrumb: "Contact",
+    breadcrumb: "İletişim",
     props: { className: "active-breadcrumb" },
   },
   {

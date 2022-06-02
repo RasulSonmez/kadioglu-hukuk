@@ -21,7 +21,7 @@ const BannerTwoArea = () => {
                   <MdListAlt />
                   95%
                 </div>
-                <p>Cases Won</p>
+                <p>Başarılı Dava</p>
               </div>
             </div>
             <div className="bannerTwoArea__item">
@@ -30,25 +30,24 @@ const BannerTwoArea = () => {
                   <MdOutlinePeople />
                   863
                 </div>
-                <p>Trusted Client</p>
+                <p>Güvenilir Müşteri</p>
               </div>
             </div>
             <div className="bannerTwoArea__item">
               <div className="bannerTwoArea__title">
                 <div className="bannerTwoArea__title-one">
-                  <MdOutlinePersonAddAlt1 />
-                  126 +
+                  <MdOutlinePersonAddAlt1 />4 +
                 </div>
-                <p>Dedicated Lawyer</p>
+                <p>Özel Avukat</p>
               </div>
             </div>
             <div className="bannerTwoArea__item">
               <div className="bannerTwoArea__title">
                 <div className="bannerTwoArea__title-one">
                   <MdOutlineBusinessCenter />
-                  25%
+                  100%
                 </div>
-                <p>Case Dismissed</p>
+                <p>Mutlu Müşteriler</p>
               </div>
             </div>
           </div>

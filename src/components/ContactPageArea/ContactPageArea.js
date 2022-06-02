@@ -59,21 +59,20 @@ const ContactPageArea = () => {
         <div className="contactPageArea__content">
           <div className="contactPageArea__container container grid">
             <div className="contactPageArea__item ">
-              <h4>Frea Consulting</h4>
-              <h1>Our Contacts</h1>
-              <h5>19 County Road 922, Mentone,al, 35984 United States</h5>
+              <h4>Hemen İletişime Geçin!</h4>
+              <h1>Hukuki Danışmanlık</h1>
+              <h5>İstanbul/Turkiye</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Obcaecati et perspiciatis eius iure modi ducimus soluta est
-                laudantium eaque vel natus unde non reprehenderit praesentium
-                quam, molestiae in excepturi saepe enim deserunt. Sint,
-                voluptatum repellat ea dignissimos laudantium illum eum.
+                Hukuki süreçler çoğunlukla karmaşık ve yorucudur. Yandaki
+                iletişim formunu doldurarak hukuki süreçlerinizle ilgili
+                görüşmek istediğiniz konuyu ve ön görüşme talebinizi avukatlık
+                büromuza iletebilirsiniz.
               </p>
-              <h1>Phone</h1>
+              <h1>Telefon</h1>
               <p>
                 0-123-456-7890 <br /> 0-123-456-7890
               </p>
-              <h1>Email</h1>
+              <h1>Email Adresi</h1>
               <p>info@example.com</p>
             </div>
             <div className="contactPageArea__form ">
@@ -84,14 +83,14 @@ const ContactPageArea = () => {
                   name="user_name"
                   onChange={(e) => handleChange(e)}
                   value={name}
-                  placeholder="Your Name"
+                  placeholder="İsim Soyisim"
                 />
                 <input
                   type="email"
                   name="user_email"
                   onChange={(e) => handleChange(e)}
                   value={email}
-                  placeholder="Mail Address"
+                  placeholder="Mail Adresi"
                 />
                 <textarea
                   name="message"
@@ -99,14 +98,14 @@ const ContactPageArea = () => {
                   value={message}
                   cols="30"
                   rows="10"
-                  placeholder="Case Description..."
+                  placeholder="Mesajınız"
                 ></textarea>
                 <button
                   className="button button-secondary"
                   type="submit"
                   value="Send"
                 >
-                  Appointment
+                  Randevu
                 </button>
               </form>
             </div>

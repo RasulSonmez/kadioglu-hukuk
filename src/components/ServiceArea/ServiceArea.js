@@ -13,8 +13,8 @@ const ServiceArea = () => {
             <FiUser />
           </div>
           <div className="serviceArea__text">
-            <h3>Book Your</h3>
-            <h1>Appointment</h1>
+            <h3>Yerinizi Ayırtın</h3>
+            <h1>Randevu Alın</h1>
           </div>
         </div>
         <div className="serviceArea__item">
@@ -22,8 +22,8 @@ const ServiceArea = () => {
             <GiSandsOfTime />
           </div>
           <div className="serviceArea__text">
-            <h3>Get Free</h3>
-            <h1>Expert Advice</h1>
+            <h3>Tecrübeli</h3>
+            <h1>Uzman Tavsiyesi</h1>
           </div>
         </div>
         <div className="serviceArea__item">
@@ -31,8 +31,8 @@ const ServiceArea = () => {
             <FiUsers />
           </div>
           <div className="serviceArea__text">
-            <h3>You Can Easily</h3>
-            <h1>Join Our Team</h1>
+            <h3>Hukuki Danışmanlık</h3>
+            <h1>Dava Takibi</h1>
           </div>
         </div>
       </div>

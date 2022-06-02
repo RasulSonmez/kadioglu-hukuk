@@ -5,6 +5,7 @@ import { ImQuotesLeft } from "react-icons/im";
 //image
 import testmonialImage from "../../assets/images/testmonial-img.jpg";
 import testmonialAvatar from "../../assets/images/testmonial-avatar.jpg";
+import testmonialAvatar2 from "../../assets/images/team-1.jpg";
 //css
 import "./TestmonialArea.scss";
 
@@ -40,42 +41,40 @@ const TestmonialArea = () => {
 
           <div className="testmonialArea__itemSlider grid">
             <div className="testmonialArea__title">
-              <h4>What People Say</h4>
-              <h1>Client Testimonial</h1>
+              <h4>
+                Görüşlerinizi Bizlere Bildirdiğiniz Için Teşekkür Ediyoruz
+              </h4>
+              <h1>Mutlu Müvekkillerimiz</h1>
             </div>
 
             <Slider className="testmonialArea__slider" {...settings3}>
               <div className="testmonialArea__slider__item">
                 <p>
-                  <ImQuotesLeft color="var(--color-gold)" /> &nbsp; Lorem ipsum
-                  dolor sit amet consectetur, adipisicing elit. Enim,
-                  consequatur! Dignissimos, facilis doloribus perferendis quae
-                  amet recusandae consequatur iure sint.
+                  <ImQuotesLeft color="var(--color-gold)" /> &nbsp; Gercekten
+                  ilgiliniz ve alakaniz icin tesekkurler mesajlara geri donup
+                  bilgi verdiginiz icin gercekten tesekkur ederim.
                 </p>
                 <div className="testmonialArea__slider__content">
                   <div className="testmonialArea__slider__item-thumbImg">
                     <img src={testmonialAvatar} alt="testmonial-avatar" />
                   </div>
                   <div className="testmonialArea__slider__item-content">
-                    <h4>Clara John Doe</h4>
-                    <span>CEO of American BDS</span>
+                    <h4>Ayşe Sevcan Yılmazlar</h4>
                   </div>
                 </div>
               </div>
               <div className="testmonialArea__slider__item">
                 <p>
-                  <ImQuotesLeft color="var(--color-gold)" /> &nbsp; Lorem ipsum
-                  dolor sit amet consectetur, adipisicing elit. Enim,
-                  consequatur! Dignissimos, facilis doloribus perferendis quae
-                  amet recusandae consequatur iure sint.
+                  <ImQuotesLeft color="var(--color-gold)" /> &nbsp; Verdiğiniz
+                  bilgiler için çok teşekkür ederim. Alanında başarılı ve ilgili
+                  bir avukatlar.
                 </p>
                 <div className="testmonialArea__slider__content">
                   <div className="testmonialArea__slider__item-thumbImg">
-                    <img src={testmonialAvatar} alt="testmonial-avatar" />
+                    <img src={testmonialAvatar2} alt="testmonial-avatar" />
                   </div>
                   <div className="testmonialArea__slider__item-content">
-                    <h4>Clara John Doe</h4>
-                    <span>CEO of American BDS</span>
+                    <h4>Ali Yılmaz Koçlu</h4>
                   </div>
                 </div>
               </div>

@@ -21,7 +21,7 @@ const Home = () => {
       <TestmonialArea />
       <AttorneysArea />
       <ContactArea />
-      <BlogArea />
+
       <NewsLetterArea />
     </>
   );

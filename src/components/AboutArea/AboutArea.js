@@ -13,26 +13,26 @@ const AboutAreaArea = () => {
           <img src={aboutAreaImage} alt="aboutArea" />
         </div>
         <div className="aboutArea__content">
-          <h1>About Us</h1>
+          <h1>Hakkımızda</h1>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
-            cum sit cupiditate beatae consequuntur ipsa eum omnis voluptates
-            quae, ea cumque eius excepturi,Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Deleniti cum sit cupiditate beatae
-            consequuntur ipsa eum omnis voluptates quae, ea cumque eius
-            excepturi,
+            Kadıoğlu Hukuk Bürosu birçok avukat ve hukukçu katılımı ile bireysel
+            ve kurumsal düzeyde hizmet sunabilecek yapıda örgütlenmiştir.
+            Avukatlarımız müvekkillerine faaliyet gösterdikleri sektörleri
+            özelinde, işlerine değer katan bir anlayış ve işbirliği içerisinde
+            çalışarak hızlı ve güvenilir hukuk hizmeti sunmayı
           </p>
           <p>
-            corrupti quam non necessitatibus facilis aspernatur neque soluta
-            dignissimos animi magnam delectus et! Pariatur adipisci modi
-            dolores. corrupti quam non necessitatibus facilis aspernatur neque
-            soluta dignissimos animi magnam delectus et! Pariatur adipisci modi
-            dolores
+            Hukuk Büromuz hukukun her alanında faaliyet göstermekle birlikte
+            ağırlıklı olarak faaliyet gösterdiği İcra ve İflas Hukuku, Ticaret
+            Hukuku, Şirketler Hukuku, İş Hukuku, Borçlar Hukuku, Basın Hukuku,
+            Medeni Hukuk, Eşya Hukuku, İdare Hukuku, Vergi Hukuku, Ceza Hukuku
+            gibi bir çok alanda, hukuki uyuşmazlıkların çözümlenmesine yönelik
+            faaliyetler yürütmekte ve hizmet vermektedir.
           </p>
 
           <Link to="/about" className="button button-primary">
-            More About Us..
+            Hakkımızda
           </Link>
         </div>
       </div>

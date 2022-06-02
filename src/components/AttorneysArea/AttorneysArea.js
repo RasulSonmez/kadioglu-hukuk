@@ -74,8 +74,8 @@ const AttorneysArea = () => {
     <div className="attorneysArea section">
       <div className="attorneysArea__container">
         <div className="section__title">
-          <h3>Meet Our Experts</h3>
-          <h1>Attorneys</h1>
+          <h3>Uzmanlarımız</h3>
+          <h1>Avukatlar</h1>
         </div>
         <div className="container">
           <Slider className="attorneysArea__slider" {...settingsTwo}>
@@ -85,7 +85,7 @@ const AttorneysArea = () => {
                   <img src={teamImage5} alt="team-5" />
                 </div>
                 <div className="attorneysArea__content">
-                  <h4>John Doe</h4>
+                  <h4>Sancak Sancaktar Oduncu</h4>
                   <ul>
                     <li>
                       <a href="#">
@@ -114,7 +114,7 @@ const AttorneysArea = () => {
                   <img src={teamImage4} alt="team-4" />
                 </div>
                 <div className="attorneysArea__content">
-                  <h4>Gunther Neeraj</h4>
+                  <h4>Muhammed Ali Koyuncu team-3</h4>
                   <ul>
                     <li>
                       <a href="#">
@@ -143,7 +143,7 @@ const AttorneysArea = () => {
                   <img src={teamImage3} alt="team-3" />
                 </div>
                 <div className="attorneysArea__content">
-                  <h4>Tsvetko Édgar</h4>
+                  <h4>Mehmet Emin Uzman Çavuşoğlu</h4>
                   <ul>
                     <li>
                       <a href="#">
@@ -172,7 +172,7 @@ const AttorneysArea = () => {
                   <img src={teamImage2} alt="team-2" />
                 </div>
                 <div className="attorneysArea__content">
-                  <h4>Ionuț Yosyp</h4>
+                  <h4>Halit Erdem Dermiryolu</h4>
                   <ul>
                     <li>
                       <a href="#">
@@ -200,7 +200,7 @@ const AttorneysArea = () => {
                   <img src={teamImage1} alt="team-1" />
                 </div>
                 <div className="attorneysArea__content">
-                  <h4>Sinéad Erramun</h4>
+                  <h4>Altay Timur</h4>
                   <ul>
                     <li>
                       <a href="#">

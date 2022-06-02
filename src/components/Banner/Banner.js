@@ -20,7 +20,7 @@ const Banner = () => {
               <MdOutlinePeople />
               <CountUp end={100} duration={5} />+
             </div>
-            <p>Client Consultations</p>
+            <p>Mutlu Müşteriler</p>
           </div>
         </div>
         <div className="banner__item">
@@ -30,7 +30,7 @@ const Banner = () => {
               <CountUp end={95} duration={5} />%
             </div>
 
-            <p>Successful Cases</p>
+            <p>Başarılı Davalar</p>
           </div>
         </div>
         <div className="banner__item">
@@ -40,16 +40,16 @@ const Banner = () => {
               <CountUp end={10} duration={5} /> mlns
             </div>
 
-            <p>Recovered cost for clients</p>
+            <p>Müşteriler İçin Geri Kazanım</p>
           </div>
         </div>
         <div className="banner__item">
           <div className="banner__title">
             <div className="banner__title-one">
               <MdOutlineBusinessCenter />
-              <CountUp end={30} duration={5} />+
+              <CountUp end={4} duration={5} />+
             </div>
-            <p>Professional Attorneys</p>
+            <p>Profesyonel Avukatlar</p>
           </div>
         </div>
       </div>
